@@ -1,0 +1,129 @@
+body {
+	background-color: #EADBD8;
+	font-family: courier;
+}
+
+h1 {
+	color: #F43B31;
+	margin-top: 80px;
+	font-weight: bold;
+	text-align: center
+}
+
+h3 {
+	text-align: center;
+}
+
+#mainContain {
+	display: flex;
+	flex-diretion: row;
+	position: relative;
+	justify-content: center;
+}
+
+#container {
+	width: 580px;
+	height: 400px;
+	background-color: white;
+	margin-top: 80px;
+}
+
+.table{
+	background-color: #EEEEEE;
+	width: 80px;
+	height: 80px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 20px;
+    color: #AFAAAA;
+}
+
+.row {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+} 
+
+.info {
+	display: flex;
+	flex-direction: column;
+}
+
+#containTwo {
+	display: flex;
+	width: 500px;
+	height: 500px;
+	background-color: white;
+	flex-direction: column;
+}
+
+#uname, #phone, #noParty {
+	font-size: 14px;
+	background-color: white;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	line-height: 40px;
+}
+
+h2{
+	color: #F43B31;
+	margin-left: 20px;
+}
+
+h4 {
+	margin-left: 20px;
+	margin-bottom: 40px;
+	font-size: 18px;
+}
+
+#popWindow {
+	display:none;
+	z-index: 1000;
+	position: absolute;
+	
+}
+
+#containTwo {
+	display: flex;
+	
+	box-shadow: 0 0 15px #AFAAAA;;
+}
+
+#submit {
+	background-color: #008700;
+	padding-top:20px;
+	padding-bottom: 20px;
+	padding-left: 210px;
+	padding-right: 210px;
+	font-size: 12px;
+}
+
+#button {
+	display:flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+#cancel {
+	
+	text-align: right;
+	margin-right: 20px;
+	font-size: 22px;
+	color: #AFAAAA;
+
+}
+
+#cancelBox {
+	height: 40px;
+}
+
+h5 {
+	text-align: right;
+	margin: 10px;
+}
