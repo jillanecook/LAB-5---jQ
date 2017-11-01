@@ -1,56 +1,55 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>LAB 5</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
-    <body>
-    		<h1>Table Finder</h1>
-    		<h3>Pick your Table now</h3>
-    	<div id = "mainContain">
-    		<div id = "container"> 
-    			<div class = "row">
-    				<p class = "table">1</p>
-    				<p class = "table">2</p>
-    				<p class = "table">3</p>
-    			</div>
-    			<div class = "row">
-    				<p class = "table">4</p>
-    				<p class = "table">5</p>
-    				<p class = "table">6</p>
-    			</div>
-    			<div class = "row">
-    				<p class = "table">7</p>
-    				<p class = "table">8</p>
-    				<p class = "table">9</p>
-    			</div>
-                
-                </div>
-                <div id=popWindow>
-                    <div id= containTwo>
-                        <div id= cancelBox>
-                            <h5 id= cancel>X</h5>
-                        </div> 
-                        <h2> New Reservation</h2>
-                        <h4> Table Number: </h4>
-                            <div class = info>
-                            <input type="text" id="uname" placeholder="Name">
-                            <input type="text" id="phone" placeholder="Phone Number">
-                            <input type="text" id="noParty" placeholder="Size of Party">
-                    </div>
-                    <div id= button>
-                            <button type= submit id=submit>RESERVE</button>
-                    </div>
-                </div>
+<head>
+    <meta charset="utf-8">
+    <title>LAB 5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Table Finder</h1>
+  <h3>Pick your Table now</h3>
+  <div id = "mainContain">
+      <div id = "container"> 
+       <div class = "row">
+        <p class = "table available">1</p>
+        <p class = "table available">2</p>
+        <p class = "table available">3</p>
+    </div>
+    <div class = "row">
+        <p class = "table available">4</p>
+        <p class = "table available">5</p>
+        <p class = "table available">6</p>
+    </div>
+    <div class = "row">
+        <p class = "table available">7</p>
+        <p class = "table available">8</p>
+        <p class = "table available">9</p>
+    </div>
 
-            
-    		</div>
+</div>
+<div id=popWindow>
+    <div id= containTwo>
+        <div id= cancelBox>
+            <h5 id= cancel>X</h5>
+        </div> 
+        <h2> New Reservation</h2>
+        <h4 id=tableNumber> </h4>
+        <div class = info>
+            <input type="text" id="uName" placeholder="Name">
+            <input type="text" id="phone" placeholder="Phone Number">
+            <input type="text" id="noParty" placeholder="Size of Party">
+        </div>
+        <div id= button>
+            <button type= "button" class=submit>RESERVE</button>
+        </div>
+    </div>
 
-            </div>
-    	</div>
-        <script src="jquery-3.2.1.js"></script>
-        <script src="js/script.js"></script>
-    </body>
+</div>
+
+</div>
+</div>
+<script src="jquery-3.2.1.js"></script>
+<script src="js/script.js"></script>
+</body>
 </html>

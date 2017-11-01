@@ -22,22 +22,36 @@ h3 {
 }
 
 #container {
-	width: 580px;
+	width: 500px;
 	height: 400px;
 	background-color: white;
 	margin-top: 80px;
 }
 
 .table{
-	background-color: #EEEEEE;
 	width: 80px;
 	height: 80px;
 	display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 100%;
-    font-size: 20px;
-    color: #AFAAAA;
+    cursor: pointer;
+}
+
+#tableNo {
+	display: flex;
+	font-size: 20px; 
+}
+
+	
+.available{
+	background-color: #EEEEEE;
+	color: #AFAAAA;
+}
+
+.reserved {
+	background-color: #ADAAAA;
+	color: #C6CACB;
 }
 
 .row {
@@ -61,7 +75,7 @@ h3 {
 	flex-direction: column;
 }
 
-#uname, #phone, #noParty {
+#uName, #phone, #noParty {
 	font-size: 14px;
 	background-color: white;
 	padding-bottom: 10px;
@@ -69,6 +83,7 @@ h3 {
 	margin-left: 20px;
 	margin-right: 20px;
 	line-height: 40px;
+
 }
 
 h2{
@@ -76,14 +91,14 @@ h2{
 	margin-left: 20px;
 }
 
-h4 {
+#tableNumber {
 	margin-left: 20px;
 	margin-bottom: 40px;
 	font-size: 18px;
 }
 
 #popWindow {
-	display:none;
+	display: none;
 	z-index: 1000;
 	position: absolute;
 	
@@ -95,7 +110,7 @@ h4 {
 	box-shadow: 0 0 15px #AFAAAA;;
 }
 
-#submit {
+.submit {
 	background-color: #008700;
 	padding-top:20px;
 	padding-bottom: 20px;
@@ -126,4 +141,8 @@ h4 {
 h5 {
 	text-align: right;
 	margin: 10px;
+}
+
+input {
+	diaply:none;
 }
